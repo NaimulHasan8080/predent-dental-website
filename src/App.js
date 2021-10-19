@@ -13,6 +13,7 @@ import Login from './Components/Login/Login';
 import Navbar from './Components/Navbar/Navbar';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import Services from './Components/Services/Services';
+import Specialty from './Components/Specialty/Specialty';
 import AuthProvider from './Context/AuthProvider';
 
 function App() {
@@ -43,14 +44,17 @@ function App() {
             <Route path="/about">
               <About></About>
             </Route>
+            <PrivateRoute path="/specialty">
+              <Specialty></Specialty>
+            </PrivateRoute>
             <Route path="/dentistsdetails/:id">
               <DentistsDetails></DentistsDetails>
             </Route>
-            <Route path="*">
-              <Home></Home>
+            <Route exact path="*">
+              <Error></Error>
             </Route>
             <Route exact path="/">
-              <Error></Error>
+              <Home></Home>
             </Route>
           </Switch>
           <Footer></Footer>

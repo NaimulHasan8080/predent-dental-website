@@ -1,0 +1,8 @@
+.about-doctor{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+.about-doctor img{
+    width: 50%;
+}

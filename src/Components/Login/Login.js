@@ -1,12 +1,25 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 import './Login.css'
 
 const Login = () => {
 
-    const { userLogin, handleEmail, handlePassword, googleLogin } = useAuth();
-    // console.log(logOut)
+    const { userLogin, handleEmail, handlePassword, googleLogin, error } = useAuth();
+    const location = useLocation();
+    const history = useHistory();
+    const redirect_url = location.state?.from || "/home"
+
+
+    const handleGoogleLogin = () => {
+        googleLogin()
+            .then((result) => {
+                history.push(redirect_url)
+            })
+            .finally(() => {
+            })
+    }
+
     return (
         <div>
             <h3 className="text-center my-3">Please Login</h3>
@@ -21,12 +34,15 @@ const Login = () => {
                         <input onBlur={handlePassword} placeholder="Enter your Password" type="password" className="form-control w-50 mx-auto" id="inputPassword3" required />
                     </div>
                 </div>
+                <div>
+                    <p className="m-2 text-danger">{error}</p>
+                </div>
 
                 <button type="submit" className="btn btn-primary btn-submit">Sign in</button>
             </form>
 
             <div className=" my-3">
-                <button onClick={googleLogin} className="btn-google btn btn-danger">Google Login</button>
+                <button onClick={handleGoogleLogin} className="btn-google btn btn-danger">Google Login</button>
             </div>
 
             <div className="text-center my-3 ">

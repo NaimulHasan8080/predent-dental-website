@@ -1,8 +1,8 @@
 import React from 'react';
 import About from '../About/About';
 import Dantist from '../Dantist/Dantist';
-import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
+import Specialty from '../Specialty/Specialty';
 
 const Home = () => {
     return (
@@ -10,7 +10,7 @@ const Home = () => {
             <Header></Header>
             <Dantist></Dantist>
             <About></About>
-            <Footer></Footer>
+            <Specialty></Specialty>
         </div>
     );
 };

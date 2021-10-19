@@ -26,7 +26,7 @@ const useFirebase = () => {
     const userLogin = (e) => {
         e.preventDefault()
         setIsLoading(true)
-        signInWithEmailAndPassword(auth, email, password)
+        return signInWithEmailAndPassword(auth, email, password)
             .then((result) => {
                 setUser(result.user);
             })
@@ -36,25 +36,20 @@ const useFirebase = () => {
     }
 
     const userRegister = () => {
+        setIsLoading(true)
         createUserWithEmailAndPassword(auth, email, password)
             .then((result) => {
                 setUser(result.user)
             })
             .catch((error) => {
+                setIsLoading(false)
                 setError(error.message)
             });
     }
 
     const googleLogin = () => {
         setIsLoading(true)
-        signInWithPopup(auth, provider)
-            .then((result) => {
-                setUser(result.user);
-                setError('')
-            })
-            .finally(() => {
-                setIsLoading(false)
-            })
+        return signInWithPopup(auth, provider)
     }
 
     const logOut = () => {

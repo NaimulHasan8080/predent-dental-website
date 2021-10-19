@@ -11,6 +11,8 @@ const Contacts = () => {
                 <p> Fax : +88 02 7789513</p>
                 <p>E-mail : rjnaimul@gmail.com</p>
             </h6>
+
+
         </div>
     );
 };

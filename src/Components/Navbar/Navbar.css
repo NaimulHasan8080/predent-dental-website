@@ -1,11 +1,10 @@
 .first-title{
-    color: crimson;
+    color: goldenrod;
+    font-size: larger;
+    font-weight: 700;
 }
 .second-title{
-    color: rgb(114, 72, 81);
-}
-
-.navbar-brand{
-    font-style: italic;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(231, 59, 111);
+    font-size: larger;
+    font-weight: 700;
 }

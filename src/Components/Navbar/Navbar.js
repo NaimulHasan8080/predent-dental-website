@@ -26,14 +26,17 @@ const Navbar = () => {
                                 <Link className="nav-link active text-white" aria-current="page" to="/dentists">Dentists</Link>
                             </li>
                             <li className="nav-item">
+                                <Link className="nav-link active text-white" aria-current="page" to="/specialty">Specialty</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link active text-white" aria-current="page" to="/about">About</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link active text-white" aria-current="page" to="/contacts">Contacts</Link>
                             </li>
                         </ul>
-                        {user && <span>{user.displayName} </span>}
-                        {user.email ?
+                        {user && <span>{user?.displayName} </span>}
+                        {user?.email ?
                             <button onClick={logOut} className="btn btn-primary">Logout</button> :
                             <div><Link to="/login"><button className="btn btn-primary me-2">Login</button></Link>
                                 <Link to="/register"><button className="btn btn-primary">Register</button></Link></div>

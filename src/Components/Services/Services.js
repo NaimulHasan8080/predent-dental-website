@@ -10,6 +10,10 @@ const Services = () => {
     }, [])
     return (
         <div>
+
+            <div className="text-center my-3 text-primary">
+                <h2>We have many kinds of Services</h2>
+            </div>
             {
                 services.map(service => <Service service={service}></Service>)
             }
