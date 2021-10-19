@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "img": "http://www.simontoledano.com/wp-content/uploads/2018/12/cosmetic3.jpg",
+        "name": "Cosmetic Braces",
+        "description": " Trinity Orthodontics, we use advanced treatment plans and custom orthodontic care to provide patients with straight, beautiful smiles quickly and efficiently. Whether your misaligned teeth are causing serious TMJ issues, or you just want to be able to smile with confidence, our knowledgeable and experienced team would be happy to help. We genuinely care about our patients and want them to feel great about how their teeth look. If you are interested in learning more about our office, please don’t hesitate to contact your nearest Trinity Orthodontics location."
+    },
+    {
+        "id": 2,
+        "img": "https://www.littledentistry.com/wp-content/uploads/sites/48/2021/01/pediatric-dentistry-1024x768.jpg",
+        "name": "Prediatic Dentistry",
+        "description": "Dental care is the maintenance teeth the practice of keeping mouth clean sue pleasure rationally encounter At Trinity Orthodontics, we use advanced treatment plans and custom orthodontic care to provide patients with straight, beautiful smiles quickly and efficiently. Whether your misaligned teeth are causing serious TMJ issues, or you just want to be able to smile with confidence, our knowledgeable and experienced team would be happy to help. We genuinely care about our patients and want them to feel great about how their teeth look. If you are interested in learning more about our office, please don’t hesitate to contact your nearest Trinity Orthodontics location."
+    },
+    {
+        "id": 3,
+        "img": "https://smilesdental.com/wp-content/uploads/dental-bridges-2107.jpg",
+        "name": "Dental Bridge",
+        "description": "we use advanced treatment plans and custom orthodontic care to provide patients with straight, beautiful smiles quickly and efficiently. Whether your misaligned teeth are causing serious TMJ issues, or you just want to be able to smile with confidence, our knowledgeable and experienced team would be happy to help. We genuinely care about our patients and want them to feel great about how their teeth look. If you are interested in learning more about our office, please don’t hesitate to contact your nearest Trinity Orthodontics location."
+    },
+    {
+        "id": 4,
+        "img": "https://smileangels.com/wp-content/uploads/2020/03/beautiful-smile-1140x640.jpg",
+        "name": "Lawn Fertilization ",
+        "description": "Whether your misaligned teeth are causing serious TMJ issues, or you just want to be able to smile with confidence, our knowledgeable and experienced team would be happy to help. We genuinely care about our patients and want them to feel great about how their teeth look. If you are interested in learning more about our office, please don’t hesitate to contact your nearest Trinity Orthodontics location."
+    },
+    {
+        "id": 5,
+        "img": "https://aluxdental.com/wp-content/uploads/2019/08/oral-surgery.jpg",
+        "name": "Oral Surgery",
+        "description": "teeth the practice of keeping mouth clean sue pleasure rationally encounter At Trinity Orthodontics, we use advanced treatment plans and custom orthodontic care to provide patients with straight, beautiful smiles quickly and efficiently. Whether your misaligned teeth are causing serious TMJ issues, or you just want to be able to smile with confidence, our knowledgeable and experienced team would be happy to help. We genuinely care about our patients and want them to feel great about how their teeth look. If you are interested in learning more about our office, please don’t hesitate to contact your nearest Trinity Orthodontics location."
+    },
+    {
+        "id": 6,
+        "img": "https://smileangels.com/wp-content/uploads/2020/03/root-canal-2020-1140x640.jpg",
+        "name": "Root Canals",
+        "description": "Whether your misaligned teeth are causing serious TMJ issues, or you just want to be able to smile with confidence, our knowledgeable and experienced team would be happy to help. We genuinely care about our patients and want them to feel great about how their teeth look. If you are interested in learning more about our office, please don’t hesitate to contact your nearest Trinity Orthodontics location."
+    }
+]

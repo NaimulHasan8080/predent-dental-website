@@ -1,0 +1,11 @@
+.service img{
+    width: 300px;
+    max-width: auto;
+   
+}
+.service{
+    background-image: linear-gradient(#ccccff, #ccccff);
+    padding: 5px;
+    border-radius: 20px;
+    color: rgb(34, 24, 24);
+}
