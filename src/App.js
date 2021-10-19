@@ -50,11 +50,11 @@ function App() {
             <Route path="/dentistsdetails/:id">
               <DentistsDetails></DentistsDetails>
             </Route>
-            <Route exact path="*">
-              <Error></Error>
-            </Route>
             <Route exact path="/">
               <Home></Home>
+            </Route>
+            <Route exact path="*">
+              <Error></Error>
             </Route>
           </Switch>
           <Footer></Footer>
